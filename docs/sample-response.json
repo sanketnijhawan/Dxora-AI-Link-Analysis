@@ -1,0 +1,213 @@
+{
+  "success": true,
+  "website": "https://example.com/",
+  "brand": {
+    "name": "Example Studio",
+    "category": "Web Design",
+    "summary": "Example Studio builds accessible websites for local businesses.",
+    "products_services": [
+      "Web design",
+      "Landing pages"
+    ]
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "A small design studio",
+      "competitors": [
+        {
+          "name": "Studio One",
+          "website": null,
+          "strengths": [
+            "Potentially broader portfolio"
+          ],
+          "weaknesses_or_gaps": [
+            "Potentially higher cost"
+          ],
+          "source_basis": "suggested_unverified",
+          "evidence_urls": []
+        },
+        {
+          "name": "Studio Two",
+          "website": null,
+          "strengths": [
+            "Potentially broader portfolio"
+          ],
+          "weaknesses_or_gaps": [
+            "Potentially higher cost"
+          ],
+          "source_basis": "suggested_unverified",
+          "evidence_urls": []
+        },
+        {
+          "name": "Studio Three",
+          "website": null,
+          "strengths": [
+            "Potentially broader portfolio"
+          ],
+          "weaknesses_or_gaps": [
+            "Potentially higher cost"
+          ],
+          "source_basis": "suggested_unverified",
+          "evidence_urls": []
+        }
+      ],
+      "strengths": [
+        "Local focus"
+      ],
+      "opportunities": [
+        "Publish case studies"
+      ],
+      "research_note": "Competitor candidates are unverified model suggestions."
+    },
+    "target_search_queries": [
+      {
+        "query": "local business website design",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "service discovery",
+        "business_relevance": "Design services",
+        "target_audience": "small businesses"
+      },
+      {
+        "query": "local business website design",
+        "platforms": [
+          "Facebook"
+        ],
+        "intent": "service discovery",
+        "business_relevance": "Design services",
+        "target_audience": "small businesses"
+      },
+      {
+        "query": "local business website design",
+        "platforms": [
+          "Instagram"
+        ],
+        "intent": "service discovery",
+        "business_relevance": "Design services",
+        "target_audience": "small businesses"
+      },
+      {
+        "query": "local business website design",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "service discovery",
+        "business_relevance": "Design services",
+        "target_audience": "small businesses"
+      },
+      {
+        "query": "local business website design",
+        "platforms": [
+          "X"
+        ],
+        "intent": "service discovery",
+        "business_relevance": "Design services",
+        "target_audience": "small businesses"
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "local website design",
+      "secondary_keywords": [
+        "web designer"
+      ],
+      "long_tail_keywords": [
+        "local shop website design"
+      ],
+      "relevant_business_keywords": [
+        "landing pages"
+      ],
+      "recommended_title": "Website Design for Local Businesses | Example Studio",
+      "meta_description": "Accessible website design and landing pages for local businesses.",
+      "supporting_content": [
+        "Case studies",
+        "FAQs"
+      ]
+    },
+    "top_services": [
+      {
+        "name": "Service 1",
+        "description": "Landing page design",
+        "target_industry": "Retail",
+        "target_customer": "Local businesses",
+        "main_benefit": "Online presence",
+        "source_basis": "observed"
+      },
+      {
+        "name": "Service 2",
+        "description": "Landing page design",
+        "target_industry": "Retail",
+        "target_customer": "Local businesses",
+        "main_benefit": "Online presence",
+        "source_basis": "observed"
+      },
+      {
+        "name": "Service 3",
+        "description": "Landing page design",
+        "target_industry": "Retail",
+        "target_customer": "Local businesses",
+        "main_benefit": "Online presence",
+        "source_basis": "suggested"
+      },
+      {
+        "name": "Service 4",
+        "description": "Landing page design",
+        "target_industry": "Retail",
+        "target_customer": "Local businesses",
+        "main_benefit": "Online presence",
+        "source_basis": "suggested"
+      },
+      {
+        "name": "Service 5",
+        "description": "Landing page design",
+        "target_industry": "Retail",
+        "target_customer": "Local businesses",
+        "main_benefit": "Online presence",
+        "source_basis": "suggested"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Small businesses"
+      ],
+      "secondary_audience": [
+        "Startups"
+      ],
+      "industries": [
+        "Retail"
+      ],
+      "business_types": [
+        "Local retailers"
+      ],
+      "customer_profiles": [
+        "Owners without websites"
+      ],
+      "geographical_focus": null,
+      "customer_needs": [
+        "Online presence"
+      ],
+      "potential_interests": [
+        "Design"
+      ],
+      "recommended_marketing_segments": [
+        "Independent retailers"
+      ]
+    }
+  },
+  "metadata": {
+    "model": "mock-gemini-no-live-api",
+    "generated_at": "2026-11-20T08:10:00Z",
+    "evidence": {
+      "page_title": "Example Studio",
+      "meta_description": "Web design for stores",
+      "headings": [
+        "Web design"
+      ],
+      "word_count": 10,
+      "pages_analyzed": 1
+    },
+    "notes": [
+      "SYNTHETIC TEST FIXTURE \u2014 not a live API response or real competitor research."
+    ]
+  }
+}

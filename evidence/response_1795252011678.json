@@ -1,0 +1,278 @@
+{
+  "success": true,
+  "website": "https://www.shopify.com/",
+  "brand": {
+    "name": "Shopify",
+    "category": "E-commerce Platform",
+    "summary": "Shopify is a comprehensive, AI-driven commerce platform that enables businesses of all sizes—from solo entrepreneurs to global enterprises—to build, manage, and scale online and in-person stores with integrated tools for payments, shipping, inventory, and marketing.",
+    "products_services": [
+      "Online Store Builder",
+      "Point of Sale (POS)",
+      "Shopify Markets (International Selling)",
+      "Shopify Capital (Business Funding)",
+      "Shopify App Store",
+      "Headless Commerce Toolkit (Hydrogen)",
+      "Sidekick (Commerce AI)"
+    ]
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "Shopify positions itself as the world's leading commerce platform, emphasizing AI integration, high-converting checkout (Shop Pay), and scalability from startup to enterprise.",
+      "competitors": [
+        {
+          "name": "BigCommerce",
+          "website": "https://www.bigcommerce.com",
+          "strengths": [
+            "Strong native features for enterprise",
+            "Flexible API-first architecture"
+          ],
+          "weaknesses_or_gaps": [
+            "Steeper learning curve for beginners",
+            "Less extensive app ecosystem compared to Shopify"
+          ],
+          "source_basis": "suggested_unverified",
+          "evidence_urls": []
+        },
+        {
+          "name": "WooCommerce",
+          "website": "https://woocommerce.com",
+          "strengths": [
+            "Open-source flexibility",
+            "Deep integration with WordPress"
+          ],
+          "weaknesses_or_gaps": [
+            "Requires more technical maintenance",
+            "Hosting and security are user-managed"
+          ],
+          "source_basis": "suggested_unverified",
+          "evidence_urls": []
+        },
+        {
+          "name": "Wix eCommerce",
+          "website": "https://www.wix.com",
+          "strengths": [
+            "Highly intuitive drag-and-drop design",
+            "All-in-one website builder"
+          ],
+          "weaknesses_or_gaps": [
+            "Limited scalability for high-volume enterprise",
+            "Fewer advanced inventory management tools"
+          ],
+          "source_basis": "suggested_unverified",
+          "evidence_urls": []
+        }
+      ],
+      "strengths": [
+        "High-converting checkout (Shop Pay)",
+        "Extensive app ecosystem (21,000+ apps)",
+        "Robust AI integration (Sidekick, Agentic Storefronts)",
+        "Scalability across all business sizes"
+      ],
+      "opportunities": [
+        "Expand AI-driven automation features for small business owners",
+        "Deepen penetration in international markets via Shopify Markets",
+        "Enhance headless commerce adoption for enterprise developers"
+      ],
+      "research_note": "Competitor suggestions are based on market positioning in the e-commerce platform sector and are not verified through external benchmarking."
+    },
+    "target_search_queries": [
+      {
+        "query": "how to start an online store with AI",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Informational/Commercial",
+        "business_relevance": "Attracts entrepreneurs looking for modern, automated solutions.",
+        "target_audience": "Aspiring entrepreneurs and solo-preneurs."
+      },
+      {
+        "query": "best ecommerce platform for scaling business",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Commercial/Transactional",
+        "business_relevance": "Targets business owners evaluating platform migration or growth.",
+        "target_audience": "Small to medium business owners and decision-makers."
+      },
+      {
+        "query": "Shopify vs competitors for enterprise",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Comparison",
+        "business_relevance": "Captures high-intent leads researching enterprise-grade solutions.",
+        "target_audience": "Enterprise-level IT and business managers."
+      },
+      {
+        "query": "how to sell products on social media",
+        "platforms": [
+          "Instagram",
+          "Facebook"
+        ],
+        "intent": "Educational",
+        "business_relevance": "Highlights Shopify's multi-channel selling capabilities.",
+        "target_audience": "Social media-focused brands and influencers."
+      },
+      {
+        "query": "headless commerce development tools",
+        "platforms": [
+          "X"
+        ],
+        "intent": "Technical/Professional",
+        "business_relevance": "Engages developers interested in Hydrogen and custom storefronts.",
+        "target_audience": "Web developers and technical architects."
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "ecommerce platform",
+      "secondary_keywords": [
+        "online store builder",
+        "AI commerce tools",
+        "headless commerce",
+        "sell online"
+      ],
+      "long_tail_keywords": [
+        "how to build an online store with AI",
+        "best platform for international selling",
+        "enterprise ecommerce solutions"
+      ],
+      "relevant_business_keywords": [
+        "Shopify checkout",
+        "Shop Pay",
+        "inventory management",
+        "business funding"
+      ],
+      "recommended_title": "Shopify: The All-in-One AI Commerce Platform to Build & Scale Your Business",
+      "meta_description": "Build, manage, and scale your business with Shopify. Use AI-powered tools, the world's best-converting checkout, and global selling features to grow your brand fast.",
+      "supporting_content": [
+        "Case studies on scaling from solo-preneur to enterprise",
+        "Technical documentation for Hydrogen and API usage",
+        "Guides on leveraging AI for store automation"
+      ]
+    },
+    "top_services": [
+      {
+        "name": "Online Store Builder",
+        "description": "AI-powered tools to build and customize online storefronts instantly.",
+        "target_industry": "Retail and E-commerce",
+        "target_customer": "Entrepreneurs and small business owners",
+        "main_benefit": "Rapid deployment and ease of use",
+        "source_basis": "observed"
+      },
+      {
+        "name": "Shopify Checkout (Shop Pay)",
+        "description": "High-converting, secure checkout process optimized for speed.",
+        "target_industry": "Retail",
+        "target_customer": "All merchants",
+        "main_benefit": "Increased conversion rates",
+        "source_basis": "observed"
+      },
+      {
+        "name": "Shopify Markets",
+        "description": "Tools to manage international selling and cross-border commerce.",
+        "target_industry": "Global Retail",
+        "target_customer": "Growing and enterprise brands",
+        "main_benefit": "Simplified international expansion",
+        "source_basis": "observed"
+      },
+      {
+        "name": "Shopify Capital",
+        "description": "Funding solutions tailored to merchant inventory and growth needs.",
+        "target_industry": "Retail",
+        "target_customer": "Merchants needing growth capital",
+        "main_benefit": "Access to funding without equity loss",
+        "source_basis": "observed"
+      },
+      {
+        "name": "Sidekick (Commerce AI)",
+        "description": "AI assistant integrated into the Shopify admin to automate tasks.",
+        "target_industry": "Retail",
+        "target_customer": "All merchants",
+        "main_benefit": "Operational efficiency and growth insights",
+        "source_basis": "observed"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Solo-preneurs",
+        "Small business owners"
+      ],
+      "secondary_audience": [
+        "Enterprise-level businesses",
+        "Web developers"
+      ],
+      "industries": [
+        "Retail",
+        "Direct-to-Consumer (DTC)",
+        "Fashion",
+        "Home Goods"
+      ],
+      "business_types": [
+        "Startups",
+        "Established brands",
+        "Global enterprises"
+      ],
+      "customer_profiles": [
+        "Growth-oriented entrepreneurs",
+        "Technical teams seeking headless solutions"
+      ],
+      "geographical_focus": "Global",
+      "customer_needs": [
+        "Ease of use",
+        "Scalability",
+        "High conversion rates",
+        "Operational automation"
+      ],
+      "potential_interests": [
+        "AI technology",
+        "E-commerce growth",
+        "Digital marketing",
+        "International expansion"
+      ],
+      "recommended_marketing_segments": [
+        "New business starters",
+        "High-growth scaling brands",
+        "Enterprise digital transformation teams"
+      ]
+    }
+  },
+  "metadata": {
+    "model": "gemini-3.1-flash-lite",
+    "generated_at": "2026-11-21T09:06:51.641192Z",
+    "evidence": {
+      "page_title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+      "meta_description": "Try Shopify free. Build or grow your business fast with AI. Get more than ecommerce software with tools to manage every part of your business.",
+      "headings": [
+        "Be the next AI all-star",
+        "store they line up for",
+        "Your brand has entered the chat",
+        "Show up everywhere. Without going anywhere.",
+        "Grow around the world",
+        "For anyone from entrepreneurs to enterprise",
+        "Meet your secret weapon, Sidekick",
+        "Your very own commerce AI",
+        "What winning looks like",
+        "Customize everything with apps",
+        "Hyperdriven by AI. Commerce to the core.",
+        "There’s no better place for you to build",
+        "The world’s best-converting checkout",
+        "Rock steady. Blazing fast.",
+        "Shopify has your back",
+        "Build fast on Shopify",
+        "Shopify",
+        "Ecosystem",
+        "Resources",
+        "Support",
+        "Choose a region & language"
+      ],
+      "word_count": 552,
+      "pages_analyzed": 1
+    },
+    "notes": [
+      "Only the submitted page was fetched; this is not a full-site audit.",
+      "Competitor suggestions are unverified; manually research before using business claims.",
+      "Search queries are relevance suggestions, not measured search-volume data.",
+      "Services labeled suggested are not verified current offerings."
+    ]
+  }
+}
