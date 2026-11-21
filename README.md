@@ -2,7 +2,15 @@
 
 Python/FastAPI solution for the Dxora Technologies practical test. It accepts a public website URL, fetches the **submitted HTML page**, extracts readable business information, asks Gemini to create a structured report, and validates the report with Pydantic.
 
-> **Status:** Source code and offline automated tests are ready. A live Gemini call and public deployment are **not** claimed or demonstrated here because no user API key or hosting credentials were provided. The sample output is a synthetic test fixture, not a real analysis. Review and validate live output before submission.
+> **Status (November 21, 2026):** API deployed publicly on Render and exercised end-to-end with a real Gemini API response. Locally, 20 automated tests passed. The test fixture in `docs/sample-response.json` is still synthetic and should not be confused with live output. A live Shopify response is included under `evidence/`, and competitor suggestions remain unverified.
+
+## Live demo
+
+- Swagger UI: https://dxora-ai-link-analysis.onrender.com/docs
+- API endpoint: `POST https://dxora-ai-link-analysis.onrender.com/link-analysis`
+- Source repository: https://github.com/sanketnijhawan/Dxora-AI-Link-Analysis
+- Verified via Swagger: `https://soundoper.com` returned HTTP 200 with `success: true` from the deployed service on November 21, 2026. A second real website (`https://www.shopify.com/`) was tested successfully locally. This confirms endpoint operation, not a benchmark of model accuracy.
+- Free Render instances may sleep when idle; the first request after inactivity may be slower. The public endpoint has no application-level authentication or rate limiting in this take-home MVP.
 
 ## API
 
@@ -137,7 +145,7 @@ These are **published standard API text rates**, USD per million input/output to
 python -m pytest -q
 ```
 
-The suite covers HTML cleaning, prompt isolation, malformed URL rejection, private/IP restrictions, mixed DNS answer rejection, pinned-address resolution, required JSON fields and platform coverage, fabricated verification rejection, a fully mocked endpoint success path, inaccessible website handling, provider timeout handling, real Gemini REST adapter request shape and mocked response validation, malformed LLM output rejection, and OpenAPI documentation.
+On November 21, 2026, the local test suite reported `20 passed, 1 warning` (a non-failing Starlette/httpx deprecation warning). The suite covers HTML cleaning, prompt isolation, malformed URL rejection, private/IP restrictions, mixed DNS answer rejection, pinned-address resolution, required JSON fields and platform coverage, fabricated verification rejection, a fully mocked endpoint success path, inaccessible website handling, provider timeout handling, real Gemini REST adapter request shape and mocked response validation, malformed LLM output rejection, and OpenAPI documentation.
 
 See [`evidence/test_run.txt`](evidence/test_run.txt) for the actual **offline** run. Tests mock outbound network and do **not** prove the live provider works.
 
@@ -148,7 +156,7 @@ A minimal `Dockerfile` is included for cloud deployment. Configure `GEMINI_API_K
 - `https://YOUR-HOST/docs`
 - `POST https://YOUR-HOST/link-analysis` with a real public URL
 
-Do **not** put the `.env` file, keys or tokens on GitHub. An API key and hosting account are required before a public demo can honestly be provided. For a production public deployment, add authentication and request rate limits to avoid unbounded LLM billing.
+Do **not** put the `.env` file, keys or tokens on GitHub. A public demo is available via the URL above. Gemini credentials are configured privately in hosting environment variables. For a production public deployment, add authentication and request rate limits to avoid unbounded LLM billing.
 
 ## Project structure
 
@@ -175,4 +183,4 @@ Dockerfile                 Container deployment
 
 Deadline in the assignment document: **November 27, 2026**. One email template elsewhere repeats November 22; confirm with the recruiter if needed.
 
-Once the API is **actually deployed and exercised with an API key**, publish a GitHub repo and email `hr@chivoxai.com`, subject `Sanket Nijhawan - Python Practical Link Analysis test review`, including your full name, deployed URL, `/docs` link, public GitHub repo, contact number, location and preferred discussion time. The employer also requests links to your LinkedIn and Instagram profiles for verification. Do not provide passwords or credentials.
+The API has been deployed and exercised with an API key. Email `hr@chivoxai.com`, subject `Sanket Nijhawan - Python Practical Link Analysis test review`, including your full name, deployed URL, `/docs` link, public GitHub repo, contact number, location and preferred discussion time. The employer also requests links to your LinkedIn and Instagram profiles for verification. Do not provide passwords or credentials.
